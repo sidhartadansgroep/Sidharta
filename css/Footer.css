@@ -1,0 +1,17 @@
+.footer{
+    background-color: rgb(250, 250, 250);
+    box-shadow: 1px -1px 1px lightgray;
+    padding: 20px;
+    color: #707070;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+}
+.footer a{
+    color: #707070;
+}
+.footer a:hover{
+    color:#30B5C5 !important;
+}
+

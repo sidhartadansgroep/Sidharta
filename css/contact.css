@@ -1,0 +1,43 @@
+body{
+    background-image: url(../afbeeldingen/background.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px;
+    background-attachment: fixed;
+}
+a{
+    color: #888888;
+}
+a:hover{
+    color: #888888;
+}
+@media screen and (max-width: 600px) {
+    body {
+      background-image: url(../afbeeldingen/background7.svg);
+      background-size:400px;
+    }
+  }
+@media screen and (max-width: 400px) {
+    body {
+      background-size:200px;
+    }
+  }
+.titel{
+    margin-top: 50px;
+    color: #707070;
+    margin-bottom: 70px;
+}
+h4{
+    color: #2794A1;
+    font-size: 1.2em;
+}
+p{
+    color: #888888;
+    margin-bottom: 0px;
+}
+.contactp{
+    margin-bottom: 30px;
+}
+.credits{
+    font-size:0.2em;
+}

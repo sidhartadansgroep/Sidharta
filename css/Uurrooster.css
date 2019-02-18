@@ -1,0 +1,40 @@
+body{
+    background-image: url(../afbeeldingen/background.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px;
+    background-attachment: fixed;
+}
+@media screen and (max-width: 500px) {
+    body {
+      background-size:300px;
+    }
+  }
+.titel{
+    margin-top: 50px;
+    color: #707070;
+    margin-bottom: 70px;
+}
+h2{
+    color:#2794A1;
+    font-size: 1.2em;
+}
+h2 span{
+    font-size: 0.6em;
+    color: #888888;
+}
+.Uurcontent{
+    padding-left: 10%;
+}
+
+.Uurcontent p{
+    font-size: 0.9em;
+    color: #888888;
+    margin-bottom: 30px;
+}
+svg{
+    margin-left: 5px;
+}
+h3 a{
+    color: black;
+}

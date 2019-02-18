@@ -1,0 +1,56 @@
+body{
+	margin-bottom: 110px
+}
+.paddingText{
+	padding: 40px;
+} 
+
+.img{
+	background-color: #B7C3D0;
+	padding: 0px;
+}
+.darkblue{
+	background-color: #2794A1;
+}
+.white{
+	background-color: #FFFFFF;
+	color: black;
+}
+.lightblue{
+	background-color: #36CEE1;
+}
+.container-fluid{
+	padding: 0px 0px;
+}
+.row{
+	margin:0px 0px;
+}
+img{
+
+	margin: 0;
+}
+h1{
+	padding-top: 20px;
+	font-size: 2.4em;
+}
+h3{
+	font-size: 1.8em;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+h1,h3,p{
+	color: white;
+}
+.algemeneText{
+	background-color: #36CEE1;
+	padding: 20px;
+}
+.cieta{
+	padding: 40px;
+}
+@media screen and (min-width: 768px) {
+    .paddingText{
+		padding: 0px;
+	} 
+	
+  }
